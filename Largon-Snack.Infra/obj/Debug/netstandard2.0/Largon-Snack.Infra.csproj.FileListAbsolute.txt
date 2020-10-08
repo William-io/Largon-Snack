@@ -1,0 +1,9 @@
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\bin\Debug\netstandard2.0\Largon-Snack.Infra.deps.json
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\bin\Debug\netstandard2.0\Largon-Snack.Infra.dll
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\bin\Debug\netstandard2.0\Largon-Snack.Infra.pdb
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.csprojAssemblyReference.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.AssemblyInfoInputs.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.AssemblyInfo.cs
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.csproj.CoreCompileInputs.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.dll
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Infra\obj\Debug\netstandard2.0\Largon-Snack.Infra.pdb

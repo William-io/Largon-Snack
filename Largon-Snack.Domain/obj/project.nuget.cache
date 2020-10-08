@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/67IRPjm6UMKslNtgfIH2vUdQKwCn/h89Lt807NLS8MPEJ4uH2j5A8JrbjlFJReFIM18leuPBZoS2zNUPxFpJA==",
+  "success": true,
+  "projectFilePath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\capul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\capul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

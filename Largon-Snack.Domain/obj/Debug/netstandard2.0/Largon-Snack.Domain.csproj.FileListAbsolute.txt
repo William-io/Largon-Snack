@@ -1,0 +1,9 @@
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\bin\Debug\netstandard2.0\Largon-Snack.Domain.deps.json
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\bin\Debug\netstandard2.0\Largon-Snack.Domain.dll
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\bin\Debug\netstandard2.0\Largon-Snack.Domain.pdb
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.csprojAssemblyReference.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.AssemblyInfoInputs.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.AssemblyInfo.cs
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.csproj.CoreCompileInputs.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.dll
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Domain\obj\Debug\netstandard2.0\Largon-Snack.Domain.pdb
