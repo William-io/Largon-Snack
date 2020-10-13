@@ -92,3 +92,5 @@ D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcorea
 D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcoreapp3.1\Largon-Snack.Test.dll
 D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcoreapp3.1\Largon-Snack.Test.pdb
 D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcoreapp3.1\Largon-Snack.Test.genruntimeconfig.cache
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\bin\Debug\netcoreapp3.1\Largon-Snack.Domain.dll
+D:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\bin\Debug\netcoreapp3.1\Largon-Snack.Domain.pdb

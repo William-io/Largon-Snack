@@ -1634,6 +1634,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Largon-Snack.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Largon-Snack.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Largon-Snack.Domain.dll": {}
+        }
       }
     }
   },
@@ -5705,10 +5715,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Largon-Snack.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Largon-Snack.Domain/Largon-Snack.Domain.csproj",
+      "msbuildProject": "../Largon-Snack.Domain/Largon-Snack.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Largon-Snack.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5740,7 +5756,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj": {
+              "projectPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
