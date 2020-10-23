@@ -1,8 +1,9 @@
-﻿using System.Net.Mail;
+﻿using FluentValidator;
+using System.Net.Mail;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Product
+    public class Product : Notifiable
     {
         public Product(
             string title, 

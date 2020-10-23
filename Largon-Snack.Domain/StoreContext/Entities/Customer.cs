@@ -1,33 +1,41 @@
-﻿namespace Largon_Snack.Domain.StoreContext.Entities
+﻿using FluentValidator;
+using Largon_Snack.Domain.StoreContext.ValueObjects;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Customer
+    public class Customer : Notifiable
     {
+        private readonly IList<Address> _addresses;
         public Customer(
-            string firtName,
-            string lastName,
-            string document,
-            string email,
-            string phone,
-            string address)
+            Name name,
+            Document document,
+            Email email,
+            string phone)
         {
-            FirtName = firtName;
-            LastName = lastName;
+            Name = name;
             Document = document;
             Email = email;
             Phone = phone;
-            Address = address;
+            _addresses = new List<Address>();
         }
 
-        public string FirtName { get; private set; }
-        public string LastName { get; private set; }
-        public string Document { get; private set; }
-        public string Email { get; private set; }
+        public Name Name { get; private set; }
+        public Document Document { get; private set; }
+        public Email Email { get; private set; }
         public string Phone { get; private set; }
-        public string Address { get; private set; }
+        public IReadOnlyCollection<Address> Address => _addresses.ToArray();
+
+        //Adicionar endereço 
+        public void AddAddress(Address address)
+        {
+            _addresses.Add(address); 
+        }
 
         public override string ToString()
         {
-            return $"{FirtName} {LastName}";
+            return Name.ToString();
         }
     }
 }

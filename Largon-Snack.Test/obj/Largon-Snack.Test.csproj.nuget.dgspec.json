@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj": {}
+    "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj": {
+    "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
+        "projectUniqueName": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
         "projectName": "Largon-Snack.Domain",
-        "projectPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
+        "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
         "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\obj\\",
+        "outputPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -55,18 +59,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj": {
+    "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj",
+        "projectUniqueName": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj",
         "projectName": "Largon-Snack.Test",
-        "projectPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj",
+        "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\Largon-Snack.Test.csproj",
         "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\obj\\",
+        "outputPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +86,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj": {
-                "projectPath": "D:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj"
+              "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj": {
+                "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj"
               }
             }
           }
@@ -99,19 +103,21 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.1.2, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.1.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[16.7.1, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.0, )"
             }
           },
           "imports": [
@@ -129,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
