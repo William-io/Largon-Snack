@@ -31,5 +31,10 @@ namespace Largon_Snack.Domain.StoreContext.Entities
             return Title;
         }
 
+        public void DecreaseQuantity(decimal quantity)
+        {
+            QuantityOnHand -= quantity;
+        }
+
     }
 }

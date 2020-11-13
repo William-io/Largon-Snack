@@ -9,4 +9,8 @@
     <PackageReference Include="FluentValidator" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Largon-Snack.Shared\Largon-Snack.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

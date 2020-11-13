@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Largon-Snack.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Largon-Snack.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Largon-Snack.Shared.dll": {}
+        }
       }
     }
   },
@@ -196,11 +206,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Largon-Snack.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Largon-Snack.Shared/Largon-Snack.Shared.csproj",
+      "msbuildProject": "../Largon-Snack.Shared/Largon-Snack.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentValidator >= 2.0.2",
+      "Largon-Snack.Shared >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -229,7 +245,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj": {
+              "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

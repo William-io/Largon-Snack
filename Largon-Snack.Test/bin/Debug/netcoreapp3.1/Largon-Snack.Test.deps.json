@@ -1084,10 +1084,16 @@
       },
       "Largon-Snack.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "Largon-Snack.Shared": "1.0.0"
         },
         "runtime": {
           "Largon-Snack.Domain.dll": {}
+        }
+      },
+      "Largon-Snack.Shared/1.0.0": {
+        "runtime": {
+          "Largon-Snack.Shared.dll": {}
         }
       }
     }
@@ -1715,6 +1721,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "Largon-Snack.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Largon-Snack.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

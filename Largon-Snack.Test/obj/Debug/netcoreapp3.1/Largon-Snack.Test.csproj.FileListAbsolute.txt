@@ -192,3 +192,5 @@ F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcorea
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcoreapp3.1\Largon-Snack.Test.pdb
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\obj\Debug\netcoreapp3.1\Largon-Snack.Test.genruntimeconfig.cache
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\bin\Debug\netcoreapp3.1\testhost.exe
+F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\bin\Debug\netcoreapp3.1\Largon-Snack.Shared.dll
+F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Test\bin\Debug\netcoreapp3.1\Largon-Snack.Shared.pdb

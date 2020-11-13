@@ -1651,13 +1651,24 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "Largon-Snack.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Largon-Snack.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Largon-Snack.Domain.dll": {}
+        }
+      },
+      "Largon-Snack.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Largon-Snack.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Largon-Snack.Shared.dll": {}
         }
       }
     }
@@ -5748,6 +5759,11 @@
       "type": "project",
       "path": "../Largon-Snack.Domain/Largon-Snack.Domain.csproj",
       "msbuildProject": "../Largon-Snack.Domain/Largon-Snack.Domain.csproj"
+    },
+    "Largon-Snack.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Largon-Snack.Shared/Largon-Snack.Shared.csproj",
+      "msbuildProject": "../Largon-Snack.Shared/Largon-Snack.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

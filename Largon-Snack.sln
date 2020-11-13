@@ -1,17 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largon-Snack.Api", "Largon-Snack.Api\Largon-Snack.Api.csproj", "{ADA10E8B-5F4A-487F-856B-2510ADB15F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largon-Snack.Api", "Largon-Snack.Api\Largon-Snack.Api.csproj", "{ADA10E8B-5F4A-487F-856B-2510ADB15F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largon-Snack.Domain", "Largon-Snack.Domain\Largon-Snack.Domain.csproj", "{CEEF89D8-B174-4070-84B8-21C7B2463D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largon-Snack.Domain", "Largon-Snack.Domain\Largon-Snack.Domain.csproj", "{CEEF89D8-B174-4070-84B8-21C7B2463D18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largon-Snack.Infra", "Largon-Snack.Infra\Largon-Snack.Infra.csproj", "{DBC97C65-1B4B-4477-AF38-2A0804EFA1FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largon-Snack.Infra", "Largon-Snack.Infra\Largon-Snack.Infra.csproj", "{DBC97C65-1B4B-4477-AF38-2A0804EFA1FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largon-Snack.Shared", "Largon-Snack.Shared\Largon-Snack.Shared.csproj", "{FFF84E36-76A6-4F0C-B4A2-60EEFC1701BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largon-Snack.Shared", "Largon-Snack.Shared\Largon-Snack.Shared.csproj", "{FFF84E36-76A6-4F0C-B4A2-60EEFC1701BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largon-Snack.Test", "Largon-Snack.Test\Largon-Snack.Test.csproj", "{0491F6E2-4209-4568-9FCF-97C7F35ED407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largon-Snack.Test", "Largon-Snack.Test\Largon-Snack.Test.csproj", "{0491F6E2-4209-4568-9FCF-97C7F35ED407}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{548AE9D8-0AF1-4D92-AE40-E3E9AE89550B}"
+	ProjectSection(SolutionItems) = preProject
+		Anotações.txt = Anotações.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +26,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ADA10E8B-5F4A-487F-856B-2510ADB15F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +88,11 @@ Global
 		{0491F6E2-4209-4568-9FCF-97C7F35ED407}.Release|x64.Build.0 = Release|Any CPU
 		{0491F6E2-4209-4568-9FCF-97C7F35ED407}.Release|x86.ActiveCfg = Release|Any CPU
 		{0491F6E2-4209-4568-9FCF-97C7F35ED407}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF192B23-F783-4DE0-8E18-934265F04199}
 	EndGlobalSection
 EndGlobal
