@@ -5,4 +5,8 @@
     <RootNamespace>Largon_Snack.Shared</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.2" />
+  </ItemGroup>
+
 </Project>

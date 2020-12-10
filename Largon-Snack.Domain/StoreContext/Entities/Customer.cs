@@ -1,11 +1,12 @@
 ﻿using FluentValidator;
 using Largon_Snack.Domain.StoreContext.ValueObjects;
+using Largon_Snack.Shared.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer : Entity
     {
         private readonly IList<Address> _addresses;
         public Customer(

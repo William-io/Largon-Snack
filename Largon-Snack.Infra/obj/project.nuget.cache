@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7n2Di8cz4hYqb/lRRSTppWKD6hFDDY0CCEQjXAX34+SNiGnCrtdUGUd3lBZHUW1ecUd517eVS65halQWC0Bbw==",
+  "dgSpecHash": "t18R/g3FAXrIYuwZ2Y8dvfcDmMhkWGRGZMXd/CnV0qyWBAoahSxCIBWfZPmNxyBImZ3MK9p+NfJKyTL72nPb+g==",
   "success": true,
-  "projectFilePath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Infra\\Largon-Snack.Infra.csproj",
+  "projectFilePath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Infra\\Largon-Snack.Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\capul\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\capul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

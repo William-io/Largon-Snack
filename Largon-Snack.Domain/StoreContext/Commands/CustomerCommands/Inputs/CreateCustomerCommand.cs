@@ -1,9 +1,6 @@
 ﻿using FluentValidator;
 using FluentValidator.Validation;
 using Largon_Snack.Shared.Commands;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Largon_Snack.Domain.StoreContext.Commands.CustomerCommands.Inputs
 {

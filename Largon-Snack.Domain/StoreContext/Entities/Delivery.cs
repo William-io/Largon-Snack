@@ -1,9 +1,10 @@
 ﻿using Largon_Snack.Domain.StoreContext.Enums;
+using Largon_Snack.Shared.Entities;
 using System;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Entity
     {
         public Delivery( DateTime estimatedDeliveryDate)
         {

@@ -16,3 +16,12 @@ F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netsta
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.dll
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.pdb
 F:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.csprojAssemblyReference.cache
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\bin\Debug\netstandard2.0\Largon-Snack.Shared.deps.json
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\bin\Debug\netstandard2.0\Largon-Snack.Shared.dll
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\bin\Debug\netstandard2.0\Largon-Snack.Shared.pdb
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.csprojAssemblyReference.cache
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.AssemblyInfoInputs.cache
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.AssemblyInfo.cs
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.csproj.CoreCompileInputs.cache
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.dll
+E:\source\repos\Snippet CSharp\Largon-Snack\Largon-Snack.Shared\obj\Debug\netstandard2.0\Largon-Snack.Shared.pdb

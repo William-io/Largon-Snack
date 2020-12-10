@@ -1,12 +1,13 @@
 ﻿using FluentValidator;
 using Largon_Snack.Domain.StoreContext.Enums;
+using Largon_Snack.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Address : Notifiable
+    public class Address : Entity
     {
         public Address(
             string street, 

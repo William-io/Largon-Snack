@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +41,18 @@
     }
   },
   "libraries": {
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -176,6 +200,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "FluentValidator >= 2.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -185,11 +210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj",
+      "projectUniqueName": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj",
       "projectName": "Largon-Snack.Shared",
-      "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj",
+      "projectPath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj",
       "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-      "outputPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\obj\\",
+      "outputPath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,6 +229,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -215,7 +241,12 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -233,7 +264,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

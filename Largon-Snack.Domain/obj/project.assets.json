@@ -41,6 +41,9 @@
       "Largon-Snack.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/Largon-Snack.Shared.dll": {}
         },
@@ -226,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
+      "projectUniqueName": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
       "projectName": "Largon-Snack.Domain",
-      "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
+      "projectPath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\Largon-Snack.Domain.csproj",
       "packagesPath": "C:\\Users\\capul\\.nuget\\packages\\",
-      "outputPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\obj\\",
+      "outputPath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\capul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -245,9 +248,10 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj": {
-              "projectPath": "F:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj"
+            "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj": {
+              "projectPath": "E:\\source\\repos\\Snippet CSharp\\Largon-Snack\\Largon-Snack.Shared\\Largon-Snack.Shared.csproj"
             }
           }
         }
@@ -260,6 +264,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "FluentValidator": {
             "target": "Package",
@@ -282,7 +287,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

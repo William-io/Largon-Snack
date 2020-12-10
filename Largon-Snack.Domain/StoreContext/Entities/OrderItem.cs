@@ -1,10 +1,11 @@
 ﻿using FluentValidator;
+using Largon_Snack.Shared.Entities;
 using System.Collections;
 using System.Collections.Generic;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class OrderItem : Notifiable
+    public class OrderItem : Entity
     {
         public OrderItem(Product product, decimal quantity)
         {

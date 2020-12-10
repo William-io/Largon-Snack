@@ -1,8 +1,5 @@
 ﻿using Largon_Snack.Domain.StoreContext.Commands.CustomerCommands.Inputs;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Largon_Snack.Test.Commands
 {

@@ -1,5 +1,6 @@
 ﻿using FluentValidator;
 using Largon_Snack.Domain.StoreContext.Enums;
+using Largon_Snack.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading;
 
 namespace Largon_Snack.Domain.StoreContext.Entities
 {
-    public class Order : Notifiable
+    public class Order : Entity
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
